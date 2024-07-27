@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shardul VJ Portfolio</title>
+
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Shardul VJ</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	
+	
+	  <div class="profile-container">
+		<div class="profile-info">
+		  <h1>Shardul Jeurkar</h1>
+		  <h5>Electronics and Telecommunication Engineer - VIT, Pune</h5>
+		</div>
+		<div class="profile-image" style="background-image:url(images/prof_img.png);"></div>
+	  </div>
+	  
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/profile_pic.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Shardul Jeurkar</span></p>
+										<p><span class="title-s">College: </span> <span>Vishwakarma Institute of Technology</span></p>
+										<p><span class="title-s">Branch: </span> <span>Electronics and Telecommunication</span></p>
+										<p><span class="title-s">Address: </span> <span>Pune, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+										<div class="skills-container">
+											<h2>Skills</h2>
+											<div class="skills-list">
+												<div class="skill-item">Robotics</div>
+												<div class="skill-item">ROS (Robot Operating System)</div>
+												<div class="skill-item">Microcontroller Programming</div>
+												<div class="skill-item">PCB designing</div>
+												<div class="skill-item">Embedded Electronics</div>
+												<div class="skill-item">Analog Electronocs</div>
+												<div class="skill-item">Digital Electronics and VLSI</div>
+												<div class="skill-item">Machine Learning</div>
+												<div class="skill-item">Computer Vision</div>
+											  <div class="skill-item">Python</div>
+											  <div class="skill-item">C, C++</div>
+											  <div class="skill-item">Java</div>
+											  <div class="skill-item">Project Management</div>
+											  <div class="skill-item">Social media Managemnt</div>
+											</div>
+										  </div>
+										  
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>I am an Electronics and Telecommunication Engineer currently studying at Vishwakarma Institute of Technology Pune, with a strong passion for Robotics and Electronics. My experience spans AI-ML, ROS, Robotics, and IoT, where I have worked on product projects including PCB design and embedded programming. I have participated in various competitions and hackathons, including the National DD Robocon Competition as a team VIT Pune Electrical Developer and Programmer. Additionally, I have organized and led electronics workshops and events in college, mentoring over 300 students. My freelancing experience includes PCB design and social media management.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Electronics and Telecommunication</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Electronics and Robotics</span></li>
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Marathi, Hindi</span></li>
+									<li class="d-flex"><span>Tech Skills:</span> <span>ROS, AI-ML, Embedded Electronics, Programming, Hardware Prototyping and debugging</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Electronics design, Social media Management</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="15">0</span> <span>+</span>
+									<span>&nbsp;Engineering Projects completed</span>
+								</p>
+								<a class="lg_icon" href="https://www.linkedin.com/in/shardul-jeurkar-0bb674209/"><span class="icon-linkedin"></span></a>
+								<a class="lg_icon" href="https://github.com/ShardulVJ07"><span class="icon-github"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Electronics and Telecommunication Engineer with experience in robotics, electronics, and software. Completed
+				various product-based projects and conducted workshops. Strong communication and project management skills.</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2022 - Present</span>
+						<h2>Electronice Developer and Mentor</h2>
+						<span class="position">The Robotics Forum</span>
+						<p class="mt-4">Electronics developer at Robotics Club- Microcontroller Programming, ROS and CV, Debugging, Testing, and RnD.
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019  -  2022</span>
+						<h2>Social media Manager, Freelancer</h2>
+						<p class="mt-4">Worked as Social media manager and Video Editing Freelancer, Took Projects from Various Companies and Clients
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2021 - 2025</span>
+    					<h2>B-Tech in E&TC</h2>
+    					<span class="position">VIT, Pune</span>
+    					<p class="mt-4">Robotics and Electronics</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+    					<span class="date">2019-2021</span>
+    					<h2>Higher Secondary School</h2>
+    					<span class="position">Pemraj Sarda University, Ahmednagar</span>
+    					<p class="mt-4">HSE and 12th, Electronics - Science</p>
+    				</div>
+    				
+				</div>
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/1Fv_hbvJTentCok16TbPmjRNCcRq_wwLj/view?usp=sharing" target="_blank" class="btn cv-btn btn-primary py-2 px-3">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the Projects and Product based Work that i have Done in electronics and Robotics and in Software Domains</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a target="_blank" href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a target="_blank" href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">AgriDrone -Agricultural Quad</a></h3>
+                <p class="proj-desc">Built an Agricultural Aviation system using BLDC motors, controllers, and feedback sensors. cost-effective solutions for farmers, integrating robust control systems, communication modules, and hardware components. Designed custom PCBs for motor control, and implemented power distribution circuits, and buffer boards for sensor data.
+				</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a target="_blank" href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a target="_blank" href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">Smart Keychain</a></h3>
+                <p class="proj-desc">Working on <span style="color: #f8ff99c7; font-weight: 40;"> <b> Product based Project </b></span> a Smart Keychain with a compact PCB design utilizing ESP12E Wroom for wireless connectivity. Integrated a CH340 autoreset circuit for seamless USB communication, LDO regulators for stable voltage supply, and a rechargeable battery system for portability. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a target="_blank" href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpeg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a target="_blank" href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg">Smart Device for Visually Impaired People - Patented</a></h3>
+                <p class="proj-desc">Created a device with computer vision and accelerometer-based object detection. Utilized ESP32 for PCB design and manufacturing, integrating location tracking and alert systems for enhanced user safety. Designed power-efficient circuits, custom shields for connectivity, and buffer boards to manage sensor inputs and communication modules.
+				</p>
+              </div>
+            </div>
+          </div>
+
+		  <div class="col-md-3 d-flex ftco-animate">
+			<div class="blog-entry">
+			<a target="_blank" href="https://github.com/rishabhnmishra/Madhav_Store_Analysis_PowerBI/blob/main/Madhav%20Store%20dashboard.jpg" class="block-20 zoom-effect" style="background-image: url('images/proj_4.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a target="_blank" href="https://github.com/ShardulVJ07/Websocket_React_Dashboard.git">Websocket Based Model for Remote System</a></h3>
+			  <p class="proj-desc">Developed a system for efficient city/village garbage management. Utilized AWS for remote WebSocket communication, ReactJS for the interface, and ESP32 for programming. Designed and manufactured PCBs with robust power circuits, and used buffer boards for integration of sensors and communication modules.				.
+			  </p>
+			</div>
+		  </div>
+		</div>
+
+
+		  
+        </div>
+	<br>
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-3 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a target="_blank" href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_5.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a target="_blank" href="https://docs.google.com/document/d/1O4_0BdrwRsNEemdjXtjJyOCrfet5S1BdGJr0B-OaSDQ/edit?usp=sharing">VLSI-Based Design of ALU</a></h3>
+				  <p class="proj-desc">Designed and simulated a VLSI-based Arithmetic Logic Unit (ALU). Focused on transistor-level circuit design, layout optimization, and thorough testing for performance and reliability.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-3 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a target="_blank" href="https://github.com/rishabhnmishra/sales_forecasting/tree/main" class="block-20 zoom-effect" style="background-image: url('images/proj_6.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a target="_blank" href="https://github.com/rishabhnmishra/sales_forecasting/tree/main">CV-Based Robotics Locomotion Algorithm using ROS</a></h3>
+				  <p class="proj-desc">Designed a robot with self-made microcontroller boards and Raspberry Pi. Implemented computer vision and mechanical systems with 3D-printed cases. Focused on creating PCB shields for power protection, designing buffer boards for peripheral communication, and ensuring reliable power circuits for continuous operation.
+				</p>
+				</div>
+			  </div>
+			</div>
+			
+
+
+			
+		 </div>
+	  </div>
+    </section>
+
+
+<!-- COMPATITIONS AND ALL -->
+
+<section class="ftco-section" id="competition-section">
+	<div class="container">
+	  <div class="row justify-content-center mb-5 pb-5">
+		<div class="col-md-7 heading-section text-center ftco-animate">
+		  <h1 class="big big-2" style="font-size: 65px; margin-top: 20px;">Other Experiences</h1>
+		  <h2 class="mb-4">Other Experiences</h2>
+		  <p>Below are all the competitions, hackathons, and other experiences I have participated in.</p>
+		</div>
+	  </div>
+	  <div class="row d-flex">
+
+		<div class="col-md-3 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a  href="other_pages/rc_24.html" class="block-20 zoom-effect" style="background-image: url('images/comp_1.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="other_pages/rc_24.html">National DD Robocon 2024</a></h3>
+			  <p class="proj-desc">I was part of National DD Robocn Competition 2024 - Electronics Developer and Incharge frome Team "VIT Pune". Worked on Robots - R1 (Semiautonomus Robot) and R2 (Completly Autonomus Robot). Worked as Techanical Team mamber - Electronics Developer and Mentor <span style="color: #ffba30;"> <a href="other_pages/rc_24.html">&nbsp;&nbsp;&nbsp; Click here for More Techenical Information about Robots</a></span>
+			  </p>
+			</div>
+		  </div>
+		</div>
+
+
+		<div class="col-md-3 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a target="_blank"  class="block-20 zoom-effect" style="background-image: url('images/comp_2.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading">CMR 24 Hackathon</h3>
+			  <p class="proj-desc">Participated in Hardware Edition of CMR Hackathon and Worked on Project - Smart Garbage management System using AWS Lambda and Remote Websocket. Designed and Developed Smarg garbage Bin prototype and REact based Web-Dashboard. <span style="color: #cefcff;">Got Best Unique Idea Award and Best Software Architecture Award
+			</span>	</p>
+			</div>
+		  </div>
+		</div>
+
+
+		<div class="col-md-3 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a  href="other_pages/rc_23.html" class="block-20 zoom-effect" style="background-image: url('images/comp_3.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading"><a href="other_pages/rc_23.html">National DD Robocon 2023</a></h3>
+			  <p class="proj-desc">I was part of National DD Robocn Competition 2023. Techanical and Non-Techenical Team Member from Teah=m VIT-Pune. Wrked as Electronics Developer and Management Activities and Events <span style="color: #ffba30;"> <a href="other_pages/rc_23.html">&nbsp;&nbsp;&nbsp; Click here for More Techenical Information about Robots</a></span>
+			  </p>
+			</div>
+		  </div>
+		</div>
+
+		<div class="col-md-3 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a target="_blank" class="block-20 zoom-effect" style="background-image: url('images/comp_4.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <h3 class="heading">Smart India Hackathon (SIH-24)</h3>
+			  <p class="proj-desc">  Participated in Smart India Hackathon - Worked on Project : Headlight detection and Alert System using Doppler Effect : In Domain Vehicle to vehicle Communication</p>
+			</div>
+		  </div>
+		</div>	
+
+
+
+
+	  </div>
+	  	</div>
+  </section>
+
+<!-- ENDS HERE  -->
+
+
+
+
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="5">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="15">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="300">0 </strong>
+                <span>Students Mentored</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to do Prototypes and Debug Problems in Electronics & Robotics World and also Software Developement </h4>
+						<br>
+						<p><a href="https://github.com/ShardulVJ07" target="_blank" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-2">Address</h3>
+	            <p>Pune, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-2">Contact Number</h3>
+	            <p><a href="8788635831"> 8788635831 </a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-2">Email Address</h3>
+	            <p><a href="mailto:shardul.jeurkar07@gmail.com">shardul.jeurkar07@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-2">Download Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/1Fv_hbvJTentCok16TbPmjRNCcRq_wwLj/view?usp=sharing">Download here</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://www.instagram.com/shardulrvj/" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.youtube.com/channel/UCeE46qKEkDDsT0alg-J2J0w"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/shardul-jeurkar-0bb674209/"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://github.com/ShardulVJ07"><span class="icon-github"></span></a></li>  
+					  <!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li> -->
+					  <!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-facebook"></span></a></li> -->
+				      <li class="ftco-animate"><a href="https://www.instagram.com/shardulrvj/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
