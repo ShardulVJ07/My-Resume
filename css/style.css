@@ -151,6 +151,60 @@ color: #ff0051;
   text-align: justify; 
 }
 
+
+
+@media (max-width: 845px) {
+  .profile-info h1 {
+    font-size: 25px; /* Reduced size for mobile */
+  }
+
+  .profile-info h5 {
+    font-size: 1em; /* Reduced size for mobile */
+  }
+
+  .profile-image{
+    height: 70px;
+    width: 100px;
+  }
+
+  .overlay .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-img-c {
+    justify-content: center;
+    margin-bottom: 20px; /* Space below the image */
+  }
+
+  .about-img {
+    margin-right: 0; /* Remove margin on smaller screens */
+  }
+
+  .about-info {
+    text-align: center;
+  }
+
+  .skills-list {
+    justify-content: space-around; /* Center the skill items horizontally */
+  }
+
+  .skill-item {
+    font-size: 12px;
+  }
+
+  .heading-section{
+    margin-left: 10px;
+  }
+
+  .about-info li span{
+    text-align: left;
+  }
+.text{
+  margin-left: 10px;
+}
+}
+
 /* THIS ABOVE ADDED BY ME */
 
 
