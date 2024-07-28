@@ -85,7 +85,7 @@ body {
   align-items: center;
   justify-content: center; /* Centers the content horizontally */
   padding: 20px;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 .profile-info {
@@ -110,7 +110,7 @@ body {
 .skills-list {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-  justify-content: center; /* Center the skill items horizontally */
+  justify-content: space-between; /* Center the skill items horizontally */
   gap: 10px; /* Reduced space between skill items */
 }
 
@@ -121,7 +121,7 @@ body {
   border-radius: 10px; /* Rounded corners */
   background-color: #1b1b1b; /* Dark background color for the skill items */
   color: #f0f0f0; /* Text color */
-  font-size: 16px;
+  font-size: 14px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
   box-shadow: 0 0 2px #fff01d; /* Subtle glowing border */
 }
